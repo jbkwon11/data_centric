@@ -4,18 +4,18 @@ This is the official repository for the paper: **"Data-Centric AI Design Strateg
 
 This study demonstrates that data design decisions—such as label refinement and determining data sufficiency—are as critical as algorithmic improvements in building effective early warning systems for student success.
 
-## 📌 Overview
+## Overview
 Conventional model-centric approaches often overlook the nuances of administrative data. Using over 80,000 real-world academic records, we empirically analyze three key data-centric factors:
 1. **Label Design:** Refining borderline cases like zero-horizon dropouts and students on leave.
 2. **Data Sufficiency:** Identifying the optimal training set size via learning curve analysis.
 3. **Grade-Level Modeling:** Comparing unified models against grade-specific architectures.
 
-## ✨ Key Findings
+## Key Findings
 * **Performance Gain:** Refining ambiguous labels to align with predictive goals improved the F1-score for at-risk students from **0.240 to 0.499**.
 * **Data Efficiency:** Learning curve analysis revealed a performance saturation point at approximately **12,000 instances**, suggesting that data quality is more important than volume.
 * **Statistical Validity:** A **5,000-iteration paired bootstrap test** confirmed that the observed improvements are statistically significant ($p < .05$).
 
-## 📂 Repository Structure
+## Repository Structure
 
 The experimental notebooks are organized by the flow of the paper:
 
@@ -54,6 +54,6 @@ If you find this repository or our paper useful for your research, please consid
   year={2026},
   note={Under Revision}
 }
-
+```
 ## Contact
 For any inquiries regarding the code or paper, please contact `jbkwon@sunmoon.ac.kr`.
