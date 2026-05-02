@@ -1,8 +1,5 @@
 # Data-Centric AI Design Strategies for College Dropout Prediction Systems
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-
 This is the official repository for the paper: **"Data-Centric AI Design Strategies for College Dropout Prediction Systems"**. 
 
 This study demonstrates that data design decisions—such as label refinement and determining data sufficiency—are as critical as algorithmic improvements in building effective early warning systems for student success.
